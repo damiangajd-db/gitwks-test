@@ -1,6 +1,15 @@
 import os
+import sys
 
-print(os.getcwd())
+cwd = os.getcwd()
 
-if not os.getcwd().endswith('/folder'):
-  raise Exception('Wrong working directory')
+if not cwd.endswith('/folder'):
+  raise Exception(f'CWD "{cwd}" should be the file folder')
+
+if not cwd in sys.path:
+  raise Exception(f'File directory "{cwd}" should be in sys.path')
+
+repo_dir = cwd[:-len('/folder')]
+
+if not repo_dir in sys.path:
+  raise Exception(f'Repo root "{repo_dir}" should be in sys.path')
