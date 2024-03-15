@@ -1,0 +1,34 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "application/vnd.databricks.v1+cell": {
+     "cellMetadata": {},
+     "inputWidgets": {},
+     "nuid": "e648bd79-a8c9-4bec-937d-73f6b8393c67",
+     "showTitle": false,
+     "title": ""
+    }
+   },
+   "outputs": [],
+   "source": [
+    "select 7"
+   ]
+  }
+ ],
+ "metadata": {
+  "application/vnd.databricks.v1+notebook": {
+   "dashboards": [],
+   "language": "sql",
+   "notebookMetadata": {
+    "pythonIndentUnit": 4
+   },
+   "notebookName": "scott-is-here.dbsqlqueryipynb",
+   "widgets": {}
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
