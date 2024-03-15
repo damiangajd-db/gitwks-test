@@ -7,14 +7,14 @@
     "application/vnd.databricks.v1+cell": {
      "cellMetadata": {},
      "inputWidgets": {},
-     "nuid": "e6960eb4-a17a-4ad0-a592-d04d750ae973",
+     "nuid": "c7f3d5f0-9ee8-4018-b624-15d942f2af6d",
      "showTitle": false,
      "title": ""
     }
    },
    "outputs": [],
    "source": [
-    "select 1"
+    "select 2"
    ]
   }
  ],
