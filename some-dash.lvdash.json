@@ -1,0 +1,30 @@
+{
+  "datasets" : [ {
+    "name" : "5298e6f5",
+    "displayName" : "Untitled dataset",
+    "query" : ""
+  } ],
+  "pages" : [ {
+    "name" : "e4cef857",
+    "displayName" : "New Page",
+    "layout" : [ {
+      "widget" : {
+        "name" : "a6bf849f",
+        "queries" : [ {
+          "name" : "main_query",
+          "query" : {
+            "datasetName" : "5298e6f5",
+            "disaggregated" : false
+          }
+        } ],
+        "spec" : {"version":3,"widgetType":"bar","encodings":{},"frame":{"showTitle":true,"showDescription":true}}
+      },
+      "position" : {
+        "x" : 0,
+        "y" : 0,
+        "width" : 3,
+        "height" : 6
+      }
+    } ]
+  } ]
+}
