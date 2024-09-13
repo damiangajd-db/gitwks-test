@@ -1,23 +1,23 @@
 {
   "datasets" : [ {
-    "name" : "5298e6f5",
-    "displayName" : "Untitled dataset",
-    "query" : ""
+    "name" : "eda261da",
+    "displayName" : "My dataset",
+    "query" : "select 1 union select 2 union select 3;"
   } ],
   "pages" : [ {
-    "name" : "e4cef857",
+    "name" : "0351a66b",
     "displayName" : "New Page",
     "layout" : [ {
       "widget" : {
-        "name" : "a6bf849f",
+        "name" : "9fb718a2",
         "queries" : [ {
           "name" : "main_query",
           "query" : {
-            "datasetName" : "5298e6f5",
+            "datasetName" : "eda261da",
             "disaggregated" : false
           }
         } ],
-        "spec" : {"version":3,"widgetType":"bar","encodings":{},"frame":{"showTitle":true,"showDescription":true}}
+        "spec" : {"version":3,"widgetType":"bar","encodings":{"label":{"show":false}},"frame":{"showTitle":true,"showDescription":true,"title":"Some title","description":"Describe me"}}
       },
       "position" : {
         "x" : 0,
