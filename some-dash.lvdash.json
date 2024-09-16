@@ -1,44 +1,26 @@
 {
   "datasets" : [ {
-    "name" : "eda261da",
+    "name" : "4659ffc9",
     "displayName" : "My dataset",
     "query" : "select 1 union select 2 union select 3;"
   } ],
   "pages" : [ {
-    "name" : "0351a66b",
+    "name" : "f1dadf62",
     "displayName" : "New Page",
     "layout" : [ {
       "widget" : {
-        "name" : "9fb718a2",
+        "name" : "3bedfb8e",
         "queries" : [ {
           "name" : "main_query",
           "query" : {
-            "datasetName" : "eda261da",
+            "datasetName" : "4659ffc9",
             "disaggregated" : false
           }
         } ],
-        "spec" : {"version":3,"widgetType":"bar","encodings":{"label":{"show":false}},"frame":{"showTitle":true,"showDescription":true,"title":"Title 1","description":"Describe me"}}
+        "spec" : {"version":3,"widgetType":"bar","encodings":{"label":{"show":false}},"frame":{"showTitle":true,"showDescription":true,"title":"This is a better title","description":"Describe me - TODO"}}
       },
       "position" : {
         "x" : 0,
-        "y" : 0,
-        "width" : 3,
-        "height" : 6
-      }
-    }, {
-      "widget" : {
-        "name" : "0b8d3298",
-        "queries" : [ {
-          "name" : "main_query",
-          "query" : {
-            "datasetName" : "eda261da",
-            "disaggregated" : false
-          }
-        } ],
-        "spec" : {"version":3,"widgetType":"bar","encodings":{"label":{"show":false}},"frame":{"showTitle":true,"showDescription":true,"title":"Second dashboard","description":"It would be great to run queries in Test Shard"}}
-      },
-      "position" : {
-        "x" : 3,
         "y" : 0,
         "width" : 3,
         "height" : 6
