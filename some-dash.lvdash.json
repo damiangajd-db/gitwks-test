@@ -17,7 +17,21 @@
             "disaggregated" : false
           }
         } ],
-        "spec" : {"version":3,"widgetType":"bar","encodings":{"label":{"show":false}},"frame":{"showTitle":true,"showDescription":true,"title":"This is a better title","description":"Describe me - TODO"}}
+        "spec" : {
+          "version" : 3,
+          "widgetType" : "bar",
+          "encodings" : {
+            "label" : {
+              "show" : false
+            }
+          },
+          "frame" : {
+            "showTitle" : true,
+            "showDescription" : true,
+            "title" : "This is a better title",
+            "description" : "Describe me - TODO"
+          }
+        }
       },
       "position" : {
         "x" : 0,
