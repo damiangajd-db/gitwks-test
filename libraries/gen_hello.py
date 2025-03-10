@@ -1,2 +1,2 @@
 def gen_hello(name):
-  return f"Hey {name}"
+  return f"Hello {name}!"
