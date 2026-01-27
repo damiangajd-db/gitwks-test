@@ -16,6 +16,6 @@ print(f'CWD "{cwd}" is in sys.path')
 repo_dir = cwd[:-len('/folder')]
 
 if not repo_dir in sys.path:
-  raise Exception(f'Repo root "{repo_dir}" should be in sys.path')
+  raise Exception(f'Repo root "{repo_dir}"  sys.path')
 
-print(f'Repo root "{repo_dir}" is in sys.path')
+print(f'Repo root "{repo_dir}" is')
